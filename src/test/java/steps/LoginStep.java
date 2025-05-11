@@ -22,7 +22,7 @@ public class LoginStep {
     }
 
     @Quando("realizo acessom com usuário {string} e senha {string}")
-    public void o_usuario_preenche_o_campo_com(String usuario, String senha) {
+    public void realizoAcessoComUsuarioSenha(String usuario, String senha) {
         loginTask.login(usuario, senha);
     }
 
